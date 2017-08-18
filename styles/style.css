@@ -1047,9 +1047,6 @@ a {
     a:hover s {
       text-decoration: underline; }
 
-p {
-  margin: 0 0 18px; }
-
 ul {
   list-style: disc; }
 
@@ -1104,11 +1101,6 @@ h2,
       font-size: 18px;
       line-height: 18px; } }
 
-h3,
-.subsection-title {
-  color: #2e3038;
-  font-size: 19px;
-  line-height: 27px; }
   @media (max-width: 767px) {
     h3,
     .subsection-title {
@@ -8697,6 +8689,10 @@ body.nocursor {
 
  .thumbnail img {
    width: 100%;
+ }
+
+ .caption h3 a:hover {
+   color: black;
  }
 
  .system p {
