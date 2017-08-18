@@ -8650,6 +8650,7 @@ body.nocursor {
     color: white;
     padding-top: .5rem;
     border-radius: 3px;
+    margin-bottom: .5rem;
   }
 
   .searchGo select {
